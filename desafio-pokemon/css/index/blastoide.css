@@ -1,0 +1,21 @@
+.caixa-cartao-blastoide {
+    margin-top: 2rem;
+    background-image: var( --card-blastoid);
+    height: var(--altura-card-mobile);
+    width: var(--largura-card-mobile);
+    left: 20px;
+    top: 295px;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+    .caixa-cartao-blastoide {
+        margin-top: var( --distancia-de-cima-card);
+        background-image: var( --card-blastoid);
+        height: var(--altura-card);
+        width: var(--largura-card);
+        left: 20px;
+        top: 295px;
+        border-radius: 15px;
+    }
+}

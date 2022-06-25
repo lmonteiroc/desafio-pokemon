@@ -1,0 +1,97 @@
+.area_chamada {
+    display: grid;
+    width: var(--largura-chamada);
+    height: 154px;
+    z-index: 1;
+    position: absolute;
+    background-color: var(--cor-chamada);
+    top: 0%;
+    display: grid;
+    border-radius: var( --chamada-borda)
+}
+
+.texto-chamada {
+    color: var(--branco);
+    font-size: larger;
+    margin-top: -5rem;
+    margin-left: 3rem;
+}
+
+.texto-chamada-menor {
+    color: var(--branco);
+    font-size: small;
+    margin-top: -12rem;
+    margin-left: 5rem;
+}
+
+.bot_img {
+    width: var( --foto-tamanho);
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
+    border: solid 2px var(--silver);
+    margin-left: 18rem;
+    margin-top: 5rem;
+}
+
+.status_img {
+    width: 10px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 21.1rem;
+    margin-top: 4.6rem;
+}
+
+.escolha-pokemon {
+    font-size: 20px;
+    margin-bottom: 2rem;
+    margin-top: 11rem;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+    .area_chamada {
+        width: var(--largura-chamada);
+        height: 20rem;
+        z-index: 1;
+        position: absolute;
+        background-color: var(--cor-chamada);
+        top: 0%;
+        display: grid;
+        margin-bottom: 5rem;
+        border-radius: 0 0 10px 10px;
+    }
+    .texto-chamada {
+        color: var(--branco);
+        font-size: 50px;
+        margin-left: 15rem;
+        margin-top: 1rem;
+    }
+    .texto-chamada-menor {
+        color: var(--branco);
+        margin-top: -3rem;
+        margin-left: 25rem;
+        font-size: 20px;
+    }
+    .status_img {
+        width: 15px;
+        position: absolute;
+        z-index: 1;
+        margin-left: 76.5rem;
+        margin-top: 6.5rem;
+    }
+    .bot_img {
+        width: 180px;
+        position: relative;
+        z-index: 2;
+        margin-left: 65rem;
+        top: 2rem;
+    }
+    .escolha-pokemon {
+        height: 62px;
+        font-size: 45px;
+        margin-top: 25rem;
+        margin-left: 10rem;
+    }
+}

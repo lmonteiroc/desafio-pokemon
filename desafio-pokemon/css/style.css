@@ -1,0 +1,100 @@
+@import "reset";
+:root {
+    /*cabeçalho*/
+    --cor-chamada: #494949;
+    --largura-chamada: 100%;
+    --foto-tamanho: 47px;
+    /*fonte*/
+    --Montserrat: 'Montserrat', sans-serif;
+    /*cores geral*/
+    --preto: black;
+    --branco: #FFF;
+    --azul-claro: #DFE3E5;
+    --vermelho-forte: #B72E2E;
+    --cinza-escuro: #4F4C4C;
+    --cinza-claro: #F7F4F4;
+    --cinza-medio: #D9D9D9;
+    --fonte-link: #0084FF;
+    --fonte-cinza: #666;
+    --silver: #cad5da;
+    /*cores de referenia*/
+    --destaque-cor: rgb(128, 125, 125);
+    --ref-bulba: #494949;
+    --ref-pikachu: #BF8400;
+    --ref-charmander-charizard: #DE5050;
+    --ref-squartle-blastoide: #4689C7;
+    /*cores cards*/
+    --card-charmander-charizard: #FB6C6C;
+    --card-pikachu: #FFCE4B;
+    --card-bulba: linear-gradient(8.46deg, #46A487 -0.58%, #46D7AB 108.38%);
+    --card-blastoid: linear-gradient(8.46deg, #468DA4 -0.58%, #46D7AB 108.38%, #46C5D7 108.38%);
+    --card-squard: linear-gradient(8.46deg, #4676A4 -0.58%, #46C5D7 108.38%);
+    /* card*/
+    --largura-card: 580px;
+    --largura-card-mobile: 162px;
+    --altura-card: 150px;
+    --altura-card-mobile: 109.0090103149414px;
+    --distancia-de-cima-card: 1.5rem;
+    /*img-pokemon */
+    --img-pokemon: 120px;
+    /*extremidades*/
+    --descricao-borda: 10px 10px 10px 10px;
+    --chamada-borda: 0 0 10px 10px;
+    /*abertura*/
+    --margem-esquerda: 6rem;
+    --margem-abaixo: 25rem;
+    --margem-pokebola: 8rem;
+    --margem-esquerda-desktop: 35rem;
+    --margem-abaixo-desktop: 22rem;
+    --margem-pokebola-desktop: 36rem;
+    --logo-tamanho: 200px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*container para colocar os itens na msm linha **geral*/
+
+.grid-container {
+    display: grid;
+    justify-content: space-between;
+}
+
+.grid-box-mobile {
+    display: grid;
+    grid-auto-rows: 150px;
+}
+
+.flex-containe {
+    display: flex;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*.grid-box {
+    display: grid;
+    grid-template-columns: 50px 55px 80px 80px 19px 19px 19px 19px 19px;
+}*/
+
+
+/*******************obs**************************/
+
+
+/* essa tag calc((100% - 940px)/2) limita o tamanho do espaçamento da direita e da esquerda em 940px mesmo sendo uma tela 4k, ajuda na responsividade*/
+
+@media screen and (min-width: 1024px) {
+    .grid-box {
+        display: grid;
+        justify-content: space-between;
+    }
+    .grid-box {
+        display: grid;
+        grid-template-columns: 50px 55px 80px 80px 19px 19px 19px 19px 19px;
+    }
+}

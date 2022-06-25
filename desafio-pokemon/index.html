@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--personagens-->
+    <link rel="stylesheet" href="css/index/bulba.css">
+    <link rel="stylesheet" href="css/index/squartle.css">
+    <link rel="stylesheet" href="css/index/charizard.css">
+    <link rel="stylesheet" href="css/index/chamander.css">
+    <link rel="stylesheet" href="css/index/pikachu.css">
+    <link rel="stylesheet" href="css/index/blastoide.css">
+    <link rel="stylesheet" href="css/index/chamada.css">
+    <!--reset-->
+    <link rel="stylesheet" href="css/reset.css">
+    <!--estilo_variaveis-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--imagem-pokemon-->
+    <link rel="stylesheet" href="css/index/img-pokemon.css">
+    <!--conteudos dos cartoes-->
+    <link rel="stylesheet" href="css/index/conteudo_de_texto_cards.css">
+    <!--barra-->
+    <link rel="stylesheet" href="css/index/pesquisa-pokemon.css">
+    <!--icone title-->
+    <link rel="icon" type="image/png" href="img/bola-app.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/bola-app.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/bola-app.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/bola-app.png">
+    <link rel="manifest" href="img/bola-app.png">
+    <link rel="mask-icon" href="img/bola-app.png">
+
+    <title>Home | Search</title>
+</head>
+
+<body>
+    <!--innicio do cabeçalho/chamada-->
+    <header>
+        <section class="grid-container">
+
+            <div class="area_chamada grid-box-mobile ">
+                <img class="status_img" src="img/elipce-vermelha.png" alt="um circulo vermelho para sinaliar o status do jogador">
+                <img class="bot_img" src="img/foto.jpg" alt="imagem de perfil do jogador">
+                <h4 class="texto-chamada">Olá, Ash Ketchum</h4>
+                <p class="texto-chamada-menor">Bem vindo!😃</p>
+
+            </div>
+        </section>
+        <!--fim do cabeçalho/chamada-->
+        <article>
+            <h1 class="escolha-pokemon">Qual Pokémon você <br> escolheria?</h1>
+        </article>
+        <!--barra de pesquisa-->
+        <div class="container">
+
+
+            <form method="get" action="/search.cgi">
+                <input type="search" class="search-input" placeholder="Search about a pokemon using name or pokedex number">
+                <button class="search-button">Search</button>
+            </form>
+
+            <span class="pokemon"></span>
+            <span class="error"></span>
+        </div>
+        <!--fim da barra de pesquisa-->
+        <!--inicio do menu pokemon-->
+
+
+        <!--bulbasaur-->
+        <div class="flex-box">
+            <a href="informativo-bulba.html">
+                <div class="caixa-cartao-bulba">
+                    <p class="numero-bulba">#001</p>
+                    <p class="texto-cards"> Bulbasaur</p>
+                    <button class="destaque">Planta</button>
+                    <br>
+                    <button class="destaque">Venenoso</button>
+                    <img class="posicao-img-bulba" src="img/bulba.png" alt="Bulbassauro é um pokemon de quatro patas que representa um animal com uma planta nas costas">
+                </div>
+            </a>
+            <!--charmander-->
+            <div class="caixa-cartao-charmander">
+                <p class="numero-charmander-charizard">#002</p>
+                <p class="texto-cards">Charmander</p>
+                <button class="destaque">Fogo</button>
+                <img class="posicao-img-charmander" src="img/charisard.png" alt="charmander é um dragão sem asas que possui uma pequena chama na calda">
+            </div>
+        </div>
+        <!--squartle-->
+        <ul class="flex-box">
+            <li class="caixa-cartao-squartle">
+                <p class="numero-squartle-blastoide">#003</p>
+                <p class="texto-cards">Squartle</p>
+                <button class="destaque">Água</button>
+                <img class="posicao-img-squartle" src="img/squartle.png" alt="personagem da serie de desenho pokemon, squartle é uma tartarua">
+            </li>
+            <!--pikachu-->
+            <li class="caixa-cartao-pikachu">
+                <p class="numero-pikachu">#004</p>
+                <p class="texto-cards">Pikachu</p>
+                <button class="destaque">Eletric</button>
+                <img class="posicao-img-pikachu" src="img/pikachu.png" alt="pikachu é um rato que gera eletricidade das bochechas">
+            </li>
+        </ul>
+        <!--charizard-->
+        <ul class="flex-box">
+            <li class="caixa-cartao-charizard">
+                <p class="numero-charmander-charizard">#005</p>
+                <p class="texto-cards">Charizard</p>
+                <button class="destaque">Fogo</button>
+                <br>
+                <button class="destaque">Voador</button>
+                <img class="posicao-img-charizard" src="img/charmander.png" alt="charizard é um dragão com asas e uma grande chama na calda evolução do charmander">
+            </li>
+            <!--blastoide-->
+            <li class="caixa-cartao-blastoide">
+                <p class="numero-squartle-blastoide">#006</p>
+                <p class="texto-cards">Blastoide</p>
+                <button class="destaque">Água</button>
+                <img class="posicao-img-blastoide" src="img/blastoide.png" alt="blastoide é uma tartaruga com canhões de agua no casco">
+            </li>
+        </ul>
+
+
+        <!--fim  do menu pokemon-->
+
+        <img class="img-pokemon" src="img/pokemon.png" alt="Logo da franquia Pokemon">
+
+    </header>
+    <script src="js/api_pokemon.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.img-pokemon {
+    margin-top: 5rem;
+    margin-left: 30%;
+}
+
+@media screen and (min-width: 1024px) {
+    .img-pokemon {
+        margin-top: 2rem;
+        width: var(--img-pokemon);
+        margin-left: 42%;
+    }
+}

@@ -1,0 +1,20 @@
+.pokemon-nome {
+    margin-left: var(--margem-esquerda);
+    margin-bottom: var(--margem-abaixo);
+    width: var( --logo-tamanho);
+}
+
+.pokebola-vemelha {
+    margin-left: var(--margem-pokebola);
+}
+
+@media screen and (min-width: 1024px) {
+    .pokemon-nome {
+        display: grid;
+        margin-left: var(--margem-esquerda-desktop);
+        margin-bottom: var( --margem-abaixo-desktop);
+    }
+    .pokebola-vemelha {
+        margin-left: var(--margem-pokebola-desktop);
+    }
+}

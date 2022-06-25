@@ -1,0 +1,156 @@
+.texto-cards {
+    color: var(--branco);
+    font-weight: bold;
+    margin-left: .8rem;
+}
+
+.posicao-img-bulba {
+    display: grid;
+    margin-left: 5rem;
+    margin-top: -3em;
+}
+
+.posicao-img-charmander {
+    display: grid;
+    margin-left: 6rem;
+    margin-top: -2rem;
+}
+
+.posicao-img-squartle {
+    display: grid;
+    margin-left: 5rem;
+    margin-top: -2em;
+}
+
+.posicao-img-charizard {
+    display: grid;
+    margin-left: 4rem;
+    margin-top: -4rem;
+}
+
+.posicao-img-pikachu {
+    display: grid;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+
+.posicao-img-blastoide {
+    display: grid;
+    margin-left: 4rem;
+    margin-top: -2rem;
+}
+
+.numero-bulba {
+    color: var(--ref-bulba);
+    margin-left: 7.5rem;
+    margin-top: .2rem;
+    font-size: 15px;
+    Opacity: 50%;
+}
+
+.numero-charmander-charizard {
+    color: var(--ref-charmander-charizard);
+    margin-left: 7.5rem;
+    margin-top: .2rem;
+    font-size: 15px;
+    Opacity: 50%;
+}
+
+.numero-squartle-blastoide {
+    color: var( --ref-squartle-blastoide);
+    margin-left: 7.5rem;
+    margin-top: .2rem;
+    font-size: 15px;
+    Opacity: 50%;
+}
+
+.numero-pikachu {
+    color: var(--ref-pikachu);
+    margin-left: 7.5rem;
+    margin-top: .2rem;
+    font-size: 15px;
+    Opacity: 50%;
+}
+
+.destaque {
+    opacity: 90%;
+    color: var( --destaque-cor);
+    background-color: var(--branco);
+    mix-blend-mode: soft-light;
+    border-radius: 35px;
+    border-style: none;
+    margin-left: .5rem;
+    margin-top: .5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .texto-cards {
+        color: var(--branco);
+        font-weight: bold;
+        width: 30px;
+    }
+    .posicao-img {
+        display: grid;
+        margin-left: 10rem;
+    }
+    .numero-bulba {
+        color: var(--ref-bulba);
+        margin-left: 15rem;
+        font-size: 52.26px;
+        Opacity: 50%;
+    }
+    .numero-charmander-charizard {
+        color: var(--ref-charmander-charizard);
+        margin-left: 15rem;
+        font-size: 52.26px;
+        Opacity: 50%;
+    }
+    .numero-squartle-blastoide {
+        color: var( --ref-squartle-blastoide);
+        margin-left: 15rem;
+        font-size: 52.26px;
+        Opacity: 50%;
+    }
+    .numero-pikachu {
+        color: var(--ref-pikachu);
+        margin-left: 15rem;
+        font-size: 52.26px;
+        Opacity: 50%;
+    }
+    .posicao-img-bulba {
+        display: grid;
+        margin-left: 25rem;
+        margin-top: -5em;
+        width: var( --img-pokemon);
+    }
+    .posicao-img-charmander {
+        display: grid;
+        margin-left: 25rem;
+        margin-top: -5rem;
+        width: var( --img-pokemon);
+    }
+    .posicao-img-squartle {
+        display: grid;
+        margin-left: 25rem;
+        margin-top: -5em;
+        width: var( --img-pokemon);
+    }
+    .posicao-img-charizard {
+        display: grid;
+        margin-left: 25rem;
+        margin-top: -5rem;
+        width: var( --img-pokemon);
+    }
+    .posicao-img-pikachu {
+        display: grid;
+        margin-left: 25rem;
+        margin-top: -5rem;
+        width: var( --img-pokemon);
+    }
+    .posicao-img-blastoide {
+        display: grid;
+        margin-left: 25rem;
+        margin-top: -5rem;
+        width: var( --img-pokemon);
+    }
+}
