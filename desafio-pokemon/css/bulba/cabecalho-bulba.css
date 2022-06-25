@@ -31,7 +31,6 @@
     border-style: none;
     margin-left: 1rem;
     margin-top: 1rem;
-    margin-bottom: 3rem;
     width: 90px;
     height: 30px;
 }
@@ -63,10 +62,10 @@
     .nome-img {
         margin-left: 8rem;
         width: 230px;
-        margin-bottom: -1rem;
+        margin-bottom: .5rem;
     }
     .img-bulba-grande {
-        margin-top: -15rem;
+        margin-top: -13rem;
         margin-left: 50%;
         width: 300px;
         z-index: 2;
@@ -74,9 +73,7 @@
     }
     .destaque {
         margin-left: 5rem;
-        height: 40px;
+        height: 30px;
         width: 120px;
-        margin-bottom: 4rem;
-        margin-top: 4rem;
     }
 }
