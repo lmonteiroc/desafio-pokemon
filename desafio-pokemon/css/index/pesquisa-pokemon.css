@@ -172,10 +172,10 @@ body {
 }
 
 .fade {
-    animation: fadeEfect 4s;
+    animation: fadeEfect 2s;
 }
 
-@media(min-width: 758px) {
+@media  screen and (min-width: 758px) {
     .pokemon {
         flex-direction: row;
     }
