@@ -132,16 +132,15 @@ input {
 
 @media screen and (min-width: 1024px) {
     input {
-        margin-bottom: 1rem;
-        margin-top: 5rem;
+        display: flex;
         height: 67px;
-        width: 592px;
+        width: 500px;
         top: 3264px;
         border-radius: 4px;
     }
     .search-button {
         width: 110px;
-        height: 65px;
+        height: 70px;
         background-color: var(--fonte-link);
         border: none;
         color: var(--branco);
